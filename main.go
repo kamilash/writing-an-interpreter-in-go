@@ -1,12 +1,12 @@
 package main
 
 import (
-		"mycode/repl"
-		"fmt"
-		"os"
+	"fmt"
+	"mycode/repl"
+	"os"
 )
 
 func main() {
-		fmt.Println("Starting REPL of Monkey Language...")
-		repl.Start(os.Stdin, os.Stdout)
+	fmt.Println("Starting REPL of Monkey Language...")
+	repl.Start(os.Stdin, os.Stdout)
 }
